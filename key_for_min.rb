@@ -15,5 +15,4 @@ def key_for_min_value(name_hash)
   else
   empty = "nil"
   end
-  empty
 end
