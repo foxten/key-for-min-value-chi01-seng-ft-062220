@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   found_key = ""
   if name_hash.size != 0
       name_hash.each do |name, number|
-        top = number+10
+        top = number+=10
         if number < top
           top = number
           found_key = name
