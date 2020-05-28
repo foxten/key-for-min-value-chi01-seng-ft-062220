@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash.size != 0
+    empty_hash = nil
     found_key = ""
     top = 606060606060
       name_hash.each do |name, number|
@@ -13,7 +14,6 @@ def key_for_min_value(name_hash)
       end
     found_key
   else
-   empty_hash = nil
    empty_hash
   end
 end
