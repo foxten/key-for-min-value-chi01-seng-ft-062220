@@ -11,7 +11,6 @@ def key_for_min_value(name_hash)
           found_key = name
         end
       end
-    found_key
   else
     empty_hash = "nil"
     empty_hash
