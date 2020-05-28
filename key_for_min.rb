@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
       end
     found_key
   else
-   nil
+    empty = "nil"
+   empty
   end
 end
