@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
   if hash.size == 0
     empty_hash = "nil"
-    empty_hash
   else
    found_key = ""
     top = 606060606060
@@ -14,6 +13,7 @@ def key_for_min_value(name_hash)
           found_key = name
         end
       end
+       empty_hash
     found_key
   end
 end
