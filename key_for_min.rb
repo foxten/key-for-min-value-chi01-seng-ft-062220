@@ -2,7 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-   empty = "nil"
   if hash.size != 0
     found_key = ""
     top = 606060606060
