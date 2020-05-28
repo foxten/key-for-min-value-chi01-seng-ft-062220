@@ -14,5 +14,4 @@ def key_for_min_value(name_hash)
     found_key
   end
     p "nil"
-  end
 end
