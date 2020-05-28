@@ -13,7 +13,4 @@ def key_for_min_value(name_hash)
       end
     found_key
   end
-  if hash.size == 0
-    p "nil"
-  end
 end
