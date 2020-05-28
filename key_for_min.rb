@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
   empty_hash = nil
   found_key = ""
   if name_hash.size != 0
-    top = number + 1
       name_hash.each do |name, number|
+        top = number + 1
         if number < top
           top = number
           found_key = name
