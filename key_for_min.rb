@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   empty_hash = nil
   found_key = ""
-  top = name_hash.count
+  top = Float::INFINITY
   if name_hash.size != 0
       name_hash.each do |name, number|
         if number < top
